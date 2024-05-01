@@ -1,0 +1,198 @@
+/* Animation */
+
+.a {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateY(80%);
+    /* Начальное состояние для анимации снизу */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.a.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.b {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateX(40%);
+    /* Начальное состояние для анимации */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.b.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.c {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateX(-40%);
+    /* Начальное состояние для анимации */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.c.visible {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* reset */
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* body */
+
+body {
+    background-color: #000000;
+}
+
+/* Header */
+
+.header-header{
+    display: flex;
+}
+
+.header-a-div{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 75px;
+}
+
+.header-a{
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 38.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+
+    transition: all 0.5s;
+    /* 39.925px */
+    letter-spacing: -0.58px;
+}
+
+.header-a:hover {
+    color: #476399;
+}
+
+.header-p{
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 38.65px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 39.925px */
+    letter-spacing: -0.58px;
+}
+
+
+.header-img{
+    float: right;
+    margin-right: 80px;
+    margin-top: -60px;
+}
+
+/* Main */
+
+.main-div{
+    margin-top: 80px;
+}
+
+.main-p{
+    margin-top: 40px;
+}
+
+.main-a{
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 48.551px */
+    letter-spacing: -0.705px;
+
+    margin-left: 70px;
+
+    transition: all 0.3s;
+
+}
+
+.d-main-p {
+    margin-top: 40px;
+}
+
+.d-main-a {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 48.551px */
+    letter-spacing: -0.705px;
+
+    margin-left: 70px;
+
+    transition: all 0.3s;
+
+}
+
+.main-a:hover{
+    color: #476399;
+}
+
+.d-main-a:hover{
+    color: #476399;
+}
+
+/* m */
+
+.m-main-p {
+    display: none;
+}
+
+.m-main-a {
+    display: none;
+}

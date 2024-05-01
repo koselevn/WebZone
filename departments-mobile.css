@@ -1,0 +1,611 @@
+/* Header */
+
+.header-header {
+    background-image: url('img/fon1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header-menu {
+    width: 15%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: 12px;
+    margin-top: 0px;
+    padding-top: 12px;
+}
+
+.header-title-h1-div {
+    margin-top: 40px;
+}
+
+.header-title-h1 {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 37.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 38.737px */
+    letter-spacing: -0.562px;
+
+    margin-top: 0px;
+    margin-left: 17px;
+}
+
+.header-title-h1-p-flex {
+    display: flex;
+}
+
+.header-title-p {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 34.914px */
+    letter-spacing: -0.345px;
+
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.header-title-p2 {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 23.529px */
+    letter-spacing: -0.232px;
+
+    margin-top: -5px;
+    margin-left: 17px;
+}
+
+.header-btn-div {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 17px;
+    padding-bottom: 30px;
+}
+
+.header-btn-1 {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 16.698px */
+    letter-spacing: -0.165px;
+
+    width: 39%;
+    height: 20%;
+    flex-shrink: 0;
+    border: 1.25px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-btn-1:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+/* Description */
+
+.description-absolute-div {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.description-absolute-div {
+    padding-top: 60px;
+}
+
+.description-logo-img {
+    margin-left: 17px;
+
+    width: 123.434px;
+    height: 27.926px;
+}
+
+.description-p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.8%;
+    letter-spacing: -0.157px;
+
+    width: 286px;
+
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.description-btn-div {
+    display: flex;
+    margin-left: 17px;
+}
+
+/*Departments*/
+
+.departments-title {
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 48.551px */
+    letter-spacing: -0.705px;
+
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.departments-line {
+    transform: rotate(0.188deg);
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    stroke: #FFF;
+
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 20px;
+}
+
+.departments-cards-clarification {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 40.986px */
+    letter-spacing: -0.405px;
+    text-transform: uppercase;
+
+    margin-left: 17px;
+}
+
+.departments-cards-list {
+    margin-top: 20px;
+}
+
+.departments-cards-title {
+    color: #FFF;
+
+    width: auto;
+
+    font-family: Stalinist One;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    letter-spacing: -0.705px;
+    text-transform: uppercase;
+
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.departments-cards-title-span {
+    color: #61FF00;
+}
+
+.departments-cards-description {
+    color: #FFF;
+
+    margin-right: 17px;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+.departments-cards-manager {
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 10px;
+    margin-left: 17px;
+}
+
+.departments-cards-manager-div {
+    display: flex;
+}
+
+.departments-cards-img {
+    margin-left: 17px;
+    margin-top: 10px;
+
+    width: 35px;
+    height: 35px;
+}
+
+.departments-cards-name {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-left: 5px;
+    padding-top: 23px;
+}
+
+.departments-cards-btn { 
+    display: none;
+}
+
+.departments-cards-btn:hover {
+    background-color: #8FFF00;
+    color: #FFF;
+}
+
+.departments-cards-line {
+
+    transform: rotate(0.188deg);
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    stroke: #FFF;
+
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Connect*/
+
+.connect-description-p {
+    width: auto;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 42.504px */
+    letter-spacing: -0.42px;
+
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 10px;
+}
+
+.connect-btn-div {
+    margin-top: 30px;
+}
+
+.connect-btn {
+    color: #8FFF00;
+    
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.216px */
+    letter-spacing: -0.18px;
+
+    border: 0.478px solid #8FFF00;
+    
+    padding: 3px 51px;
+    
+    margin-top: 12px;
+    margin-left: 17px;
+    
+    transition: all 0.5s;
+}
+
+.connect-btn:hover {
+    background-color: #8FFF00;
+    color: #FFF;
+}
+
+/* Form */
+
+.form-section {
+    background-color: #1A1A1A;
+    margin-top: 50px;
+}
+
+.form-s-div {
+    display: none;
+
+    padding-top: 0px;
+    margin-left: 17px;
+    margin-bottom: 25px;
+}
+
+.form-s-p {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 11.363px */
+    letter-spacing: -0.165px;
+
+    margin-right: 20px;
+
+    margin-bottom: 15px;
+}
+
+.seconder {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 17.217px */
+    letter-spacing: -0.25px;
+
+    margin-right: 17px;
+}
+
+.lable-1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 17px;
+}
+
+.lable-2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 47px;
+}
+
+.form-name,
+.form-phone,
+.prise {
+    width: 278.333px;
+    height: 30.833px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    background: #FFF;
+
+    margin-left: 17px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-bottom: 30px;
+}
+
+.ss {
+    width: 100.417px;
+    height: 30.833px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    margin-left: 17px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-bottom: 15px;
+}
+
+.contact {
+    width: 155.833px;
+    height: 30.833px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 17px;
+}
+
+.form-div-ss-kk {
+    display: flex;
+}
+
+.form-on-form-div {
+    display: flex;
+}
+
+.form-img {
+    display: none;
+}
+
+.form-btn-div {
+    display: flex;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-btn {
+    color: #00FF4C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.246px */
+    letter-spacing: -0.18px;
+
+    border: 1.02px solid #00FF4C;
+    background-color: #1A1A1A;
+
+    transition: all 0.5s;
+
+    padding: 5px 98px;
+
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+.form-btn:hover {
+    color: #FFF;
+    background-color: #00FF4C;
+}
+
+/* Footer */
+
+.footer-footer {
+    background-color: #0C0C0C;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 40px;
+
+    margin-left: 17px;
+    padding-top: 10px;
+}
+
+.footer-list {
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+.footet-li {
+    margin-bottom: 15px;
+}
+
+.footer-li-img {
+    width: 20px;
+    height: 20px;
+
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+.footer-li-a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 30.2px */
+    letter-spacing: -0.375px;
+
+    transition: all 0.3s;
+}
+
+.footer-li-a:hover {
+    color: #476399;
+}
+
+.footer-copiraiter {
+    color: #5E5E5E;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 11.577px */
+    letter-spacing: -0.144px;
+
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+/* Animation */
+
+.b {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.b.visible {
+    opacity: 1;
+    transform: none;
+}

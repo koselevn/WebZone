@@ -1,0 +1,634 @@
+/* Header */
+
+.header-header {
+    background-image: url('img/fon1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.header-logo {
+    display: none;
+}
+
+.header-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: 16px;
+    margin-top: 0px;
+    padding-top: 18px;
+}
+
+.header-title-h1-div {
+    margin-top: 70px;
+}
+
+.header-title-h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 92.97px */
+    letter-spacing: -1.35px;
+
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.header-title-h1-p-flex {
+    display: flex;
+}
+
+.header-title-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 83.49px */
+    letter-spacing: -0.825px;
+
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+.header-title-p2 {
+    color: #FFF;
+
+    margin-left: 40px;
+
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 76.601px */
+    letter-spacing: -0.757px;
+}
+
+.header-btn-div {
+    display: flex;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+
+.header-btn-1 {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 31.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 47.817px */
+    letter-spacing: -0.472px;
+
+    width: 299.556px;
+    height: 72.538px;
+    flex-shrink: 0;
+    border: 1.25px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.header-btn-1:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+/* Description */
+
+.description-logo-img {
+    margin-left: 40px;
+}
+
+.description-p {
+    width: 674.667px;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 29.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.8%;
+    /* 44.781px */
+    letter-spacing: -0.442px;
+
+    margin-left: 40px;
+    margin-top: 16px;
+}
+
+.description-star-img {
+    display: none;
+}
+
+/*Departments*/
+
+.departments-title {
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 48.551px */
+    letter-spacing: -0.705px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.departments-line {
+    transform: rotate(0.188deg);
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    stroke: #FFF;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 45px;
+}
+
+.departments-cards-clarification {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 40.986px */
+    letter-spacing: -0.405px;
+    text-transform: uppercase;
+
+    margin-left: 40px;
+}
+
+.departments-cards-list {
+    margin-top: 45px;
+}
+
+.departments-cards-title {
+    color: #FFF;
+
+    width: auto;
+
+    font-family: Stalinist One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    letter-spacing: -0.705px;
+    text-transform: uppercase;
+
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.departments-cards-title-span {
+    color: #61FF00;
+}
+
+.departments-cards-description {
+    color: #FFF;
+
+    margin-right: 40px;
+
+    font-family: Roboto;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-left: 40px;
+    margin-top: 35px;
+}
+
+.departments-cards-manager {
+    color: #FFF;
+
+    font-family: Stalinist One;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.departments-cards-manager-div {
+    display: flex;
+}
+
+.departments-cards-img {
+    margin-left: 40px;
+    margin-top: 17px;
+}
+
+.departments-cards-name {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-left: 11px;
+    padding-top: 40px;
+}
+
+.departments-cards-btn {
+    color: #8FFF00;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 100%;
+    /* 43.79px */
+    letter-spacing: 0px;
+    text-transform: uppercase;
+
+    width: auto;
+    height: auto;
+    border: 1.147px solid #8FFF00;
+
+    padding: 20px 10px;
+
+    transition: all 0.3s;
+
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 24px;
+}
+
+.departments-cards-btn:hover {
+    background-color: #8FFF00;
+    color: #FFF;
+}
+
+.departments-cards-line {
+
+    transform: rotate(0.188deg);
+    flex-shrink: 0;
+    stroke-width: 1.5px;
+    stroke: #FFF;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+/*Connect*/
+
+.connect-description-p {
+    width: auto;
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 42.504px */
+    letter-spacing: -0.42px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+}
+
+.connect-btn-div {
+    margin-top: 30px;
+}
+
+.connect-btn {
+    color: #8FFF00;
+
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25.642px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 38.925px */
+    letter-spacing: -0.385px;
+
+    width: 363px;
+    height: 49px;
+    flex-shrink: 0;
+    border: 1.02px solid #8FFF00;
+
+    padding: 8.5px 121px;
+
+    margin-left: 40px;
+
+    transition: all 0.5s;
+}
+
+.connect-btn:hover {
+    background-color: #8FFF00;
+    color: #FFF;
+}
+
+/* Form */
+
+.form-sectiom {
+    background-color: #1A1A1A;
+}
+
+.form-s-div {
+    display: none;
+    /* display: block; */
+
+    padding-top: 35px;
+    margin-left: 40px;
+    margin-bottom: 75px;
+}
+
+.form-s-p {
+    display: none;
+
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 25.825px */
+    letter-spacing: -0.375px;
+
+    margin-right: 55px;
+
+    margin-bottom: 20px;
+}
+
+.seconder {
+    display: none;
+
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 41.32px */
+    letter-spacing: -0.6px;
+
+    margin-right: 40px;
+}
+
+.lable-1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 48.576px */
+    letter-spacing: -0.48px;
+
+    margin-left: 40px;
+}
+
+.lable-2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 48.576px */
+    letter-spacing: -0.48px;
+
+    margin-left: 47px;
+}
+
+.form-name,
+.form-phone,
+.prise {
+    width: 593.778px;
+    height: 65.778px;
+    flex-shrink: 0;
+    background: #FFF;
+
+    margin-left: 40px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 151.8%;
+    /* 48.576px */
+    letter-spacing: -0.48px;
+
+    margin-bottom: 30px;
+}
+
+.ss {
+    width: 214.222px;
+    height: 65.778px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    margin-left: 40px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 151.8%;
+    /* 48.576px */
+    letter-spacing: -0.48px;
+
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 332.444px;
+    height: 65.778px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 151.8%;
+    /* 48.576px */
+    letter-spacing: -0.48px;
+
+    margin-left: 47px;
+}
+
+.form-div-ss-kk {
+    display: flex;
+}
+
+.form-on-form-div {
+    display: flex;
+}
+
+.form-img {
+    display: none;
+}
+
+.form-btn-div {
+    display: flex;
+}
+
+.form-btn {
+    color: #00FF4C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 39.468px */
+    letter-spacing: -0.39px;
+
+    border: 1.02px solid #00FF4C;
+    background-color: #1A1A1A;
+
+    transition: all 0.5s;
+
+    padding: 9px 235px;
+
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+.form-btn:hover {
+    color: #FFF;
+    background-color: #00FF4C;
+}
+
+/* Footer */
+
+.ooter-footer {
+    background-color: #0C0C0C;
+}
+
+.footer-logo {
+    margin-left: 40px;
+    padding-top: 15px;
+
+    width: 185px;
+    height: 55px;
+}
+
+.footer-list {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.footet-li {
+    margin-bottom: 18px;
+}
+
+.footer-li-img {
+    margin-bottom: -5px;
+    margin-right: 13px;
+}
+
+.footer-li-a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 30.2px */
+    letter-spacing: -0.375px;
+
+    transition: all 0.3s;
+}
+
+.footer-li-a:hover {
+    color: #476399;
+}
+
+.footer-copiraiter {
+    color: #5E5E5E;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 30.2px */
+    letter-spacing: -0.375px;
+
+    margin-left: 40px;
+    margin-top: 35px;
+    padding-bottom: 25px;
+}
+
+/* Animation */
+
+/* .a {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.a.visible {
+    opacity: 1;
+    transform: none;
+} */
+
+.b {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.b.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* .c {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.c.visible {
+    opacity: 1;
+    transform:none;
+} */

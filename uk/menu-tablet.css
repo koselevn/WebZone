@@ -1,0 +1,98 @@
+/* Header */
+
+.header-header {
+    display: flex;
+}
+
+.header-a-div {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+.header-a {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 23.759px */
+    letter-spacing: -0.345px;
+}
+
+.header-a:hover {
+    color: #476399;
+}
+
+.header-p {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 28.924px */
+    letter-spacing: -0.42px;
+}
+
+
+.header-img {
+    float: right;
+    margin-right: 50px;
+    margin-top: -40px;
+
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+/* Main */
+
+.main-div {
+    margin-top: 50px;
+}
+
+.main-p {
+    margin-top: 30px;
+}
+
+.main-a {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 28.924px */
+    letter-spacing: -0.42px;
+
+    margin-left: 40px;
+
+    transition: all 0.3s;
+
+}
+
+.d-main-p {
+    margin-top: 30px;
+}
+
+.d-main-a {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 28.924px */
+    letter-spacing: -0.42px;
+
+    margin-left: 40px;
+
+    transition: all 0.3s;
+
+}
+
+.main-a:hover {
+    color: #476399;
+}

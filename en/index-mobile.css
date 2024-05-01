@@ -1,0 +1,961 @@
+/* Animation */
+
+.a {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateY(80%);
+    /* Начальное состояние для анимации снизу */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.a.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.b {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateX(40%);
+    /* Начальное состояние для анимации */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.b.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.c {
+    opacity: 0;
+    /* Начальное состояние элементов (прозрачные) */
+    transform: translateX(-40%);
+    /* Начальное состояние для анимации */
+    transition: opacity 0.5s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.c.visible {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+/* Header */
+
+.header-header {
+    background-image: url('img/fon1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.header-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: 12px;
+    padding-top: 12px;
+    margin-top: 0px;
+
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.header-title-h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Stalinist One;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 38.737px */
+    letter-spacing: -0.562px;
+
+    margin-top: 10px;
+}
+
+.header-title-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+}
+
+.header-btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+    padding-bottom: 0px;
+}
+
+.header-btn-1 {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 16.698px */
+    letter-spacing: -0.165px;
+
+    width: 39%;
+    height: 20%;
+    flex-shrink: 0;
+    border: 1.25px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-btn-1:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+/* Description */
+
+.description-section {
+    background-image: url('img/fon2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 180px;
+}
+
+.description-absolute-div {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.description-absolute-div {
+    padding-top: 60px;
+}
+
+.description-logo-img {
+    margin-left: 17px;
+
+    width: 123.434px;
+    height: 27.926px;
+}
+
+.description-p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.8%;
+    /* 15.939px */
+    letter-spacing: -0.157px;
+
+    width: 290px;
+
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.description-btn-div {
+    display: flex;
+    margin-left: 17px;
+}
+
+.description-btn-1 {
+color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.216px */
+    letter-spacing: -0.18px;
+
+    width: 130px;
+    height: 27.766px;
+    flex-shrink: 0;
+    border: 1.25px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.description-btn-1:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+/* projects */
+
+.projects-title {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 16.528px */
+    letter-spacing: -0.24px;
+
+    margin-left: 17px;
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+
+.projects-div {
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+.projects-list-1 {
+    display: block;
+}
+
+.projects-img {
+    width: 100%;
+    height: 100%;
+}
+
+.projects-li-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 25.806px */
+    letter-spacing: -0.255px;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.projects-li-p-2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 14.496px */
+    letter-spacing: -0.18px;
+
+    /* padding-left: 180px;
+    padding-right: 180px; */
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.projects-btn-div {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-btn {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.717px */
+    letter-spacing: -0.185px;
+
+    width: 70%;
+    height: 35px;
+    flex-shrink: 0;
+    border: 1.177px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+.projects-btn:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+/* Prise / card */
+
+.prise-section {
+    margin-bottom: 50px;
+}
+
+.prise-title {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 16.528px */
+    letter-spacing: -0.24px;
+
+    margin-left: 17px;
+    margin-bottom: 17px;
+}
+
+.prise-card-div-1 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.prise-card-div-2 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.prise-card-div-3 {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.card-1 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    margin-left: 10px;
+}
+
+.card-2 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.card-3 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-left: 10px;
+}
+
+.card-4 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.card-5 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-left: 10px;
+
+}
+
+.card-6 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+
+.card-7 {
+    border-radius: 25px;
+    background: #212121;
+
+    transition: all 0.5s;
+
+    width: 260.417px;
+    height: 140.55px;
+    flex-shrink: 0;
+
+    display: block;
+    margin-right: auto;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover,
+.card-7:hover {
+    background-color: #476399;
+}
+
+
+
+.card-h {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 11.363px */
+    letter-spacing: -0.165px;
+
+    padding-left: 17px;
+    padding-top: 15px;
+}
+
+.card-p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 12.022px */
+    letter-spacing: -0.149px;
+
+    width: 260px;
+
+    padding-left: 17px;
+    padding-top: 5px;
+}
+
+.card-div-btn {
+    display: flex;
+
+    margin-top: 15px;
+    margin-left: 17px;
+}
+
+.card-a {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 13.662px */
+    letter-spacing: -0.135px;
+
+    width: 90px;
+    height: 25px;
+    flex-shrink: 0;
+
+    transition: all 0.5s;
+
+    border: 0.787px solid #8FFF00;
+
+    padding: 0px 0px;
+    padding-top: 5px;
+}
+
+.card-a:hover {
+    color: #FFF;
+    background-color: #8FFF00;
+}
+
+.card-a-p {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 8.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    text-align: center;
+    /* 8.78px */
+    letter-spacing: -0.127px;
+
+    width: 137px;
+    height: 25px;
+
+    border: 0.787px solid #8FFF00;
+
+    padding-top: 7px;
+}
+
+.prise-div {
+    margin-left: 17px;
+}
+
+.prise-p {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 130%;
+    /* 17.457px */
+    letter-spacing: -0.172px;
+
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+.prise-btn {
+    color: #8FFF00;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.717px */
+    letter-spacing: -0.185px;
+
+    width: 0%;
+    height: 35px;
+    flex-shrink: 0;
+    border: 1.177px solid #8FFF00;
+
+    transition: all 0.5s;
+
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* Why */
+
+.why-section {
+    margin-bottom: 40px;
+}
+
+.why-absolute-div {
+    display: flex;
+}
+
+.why-title {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 16.528px */
+    letter-spacing: -0.24px;
+
+    margin-left: 17px;
+    margin-bottom: 20px;
+}
+
+.why-img {
+    display: none;
+    margin-left: 100px;
+}
+
+.why-list {
+    margin-left: 17px;
+}
+
+.why-flex-div {
+    display: flex;
+}
+
+.why-li-h {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151.8%;
+    /* 20.24px */
+    letter-spacing: -0.2px;
+}
+
+.why-li-img {
+    width: 20.411px;
+    height: 18.067px;
+
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.why-li-p-1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 13.892px */
+    letter-spacing: -0.172px;
+
+    width: 190px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.why-li-p-2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 13.892px */
+    letter-spacing: -0.172px;
+
+    width: 210px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.why-li-p-3 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 13.892px */
+    letter-spacing: -0.172px;
+
+    width: 210px;
+
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.why-li-p-4 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 13.892px */
+    letter-spacing: -0.172px;
+
+    width: 250px;
+
+    margin-top: 5px;
+}
+
+/* Form */
+
+.form-sectiom {
+    background-color: #1A1A1A;
+}
+
+.form-s-div {
+    display: block;
+
+    padding-top: 10px;
+    margin-left: 17px;
+    margin-bottom: 25px;
+}
+
+.form-s-p {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 11.363px */
+    letter-spacing: -0.165px;
+
+    margin-right: 20px;
+
+    margin-bottom: 15px;
+}
+
+.seconder {
+    color: #FFF;
+    font-family: Stalinist One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 103.3%;
+    /* 17.217px */
+    letter-spacing: -0.25px;
+
+    margin-right: 17px;
+}
+
+.lable-1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 17px;
+}
+
+.lable-2 {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 47px;
+}
+
+.form-name,
+.form-phone,
+.prise {
+    width: 278.333px;
+    height: 30.833px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    background: #FFF;
+
+    margin-left: 17px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-bottom: 30px;
+}
+
+.ss {
+    width: 100.417px;
+    height: 30.833px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    margin-left: 17px;
+
+    color: #848484;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-bottom: 15px;
+}
+
+.contact {
+    width: 155.833px;
+    height: 30.833px;
+    flex-shrink: 0;
+
+    background: #FFF;
+
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 151.8%;
+    /* 22.77px */
+    letter-spacing: -0.225px;
+
+    margin-left: 17px;
+}
+
+.form-div-ss-kk {
+    display: flex;
+}
+
+.form-on-form-div {
+    display: flex;
+}
+
+.form-img {
+    display: none;
+}
+
+.form-btn-div {
+    display: flex;
+}
+
+.form-btn {
+    color: #00FF4C;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 151.8%;
+    /* 18.246px */
+    letter-spacing: -0.18px;
+
+    border: 1.02px solid #00FF4C;
+    background-color: #1A1A1A;
+
+    transition: all 0.5s;
+
+    padding: 5px 98px;
+
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+.form-btn:hover {
+    color: #FFF;
+    background-color: #00FF4C;
+}
+
+/* Footer */
+
+.footer-footer {
+    background-color: #0C0C0C;
+}
+
+.footer-logo {
+    width: 150px;
+    height: 40px;
+
+    margin-left: 17px;
+    padding-top: 10px;
+}
+
+.footer-list {
+    margin-left: 17px;
+    margin-top: 7px;
+}
+
+.footet-li {
+    margin-bottom: 15px;
+}
+
+.footer-li-img {
+    width: 20px;
+    height: 20px;
+
+    margin-bottom: -5px;
+    margin-right: 5px;
+}
+
+.footer-li-a {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 30.2px */
+    letter-spacing: -0.375px;
+
+    transition: all 0.3s;
+}
+
+.footer-li-a:hover {
+    color: #476399;
+}
+
+.footer-copiraiter {
+    color: #5E5E5E;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 120.8%;
+    /* 11.577px */
+    letter-spacing: -0.144px;
+
+    margin-left: 17px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+/* Animation */
+
+.b {
+    opacity: 1;
+    transform: none;
+    transition: none;
+}
+
+.b.visible {
+    opacity: 1;
+    transform: none;
+}

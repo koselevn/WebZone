@@ -1,0 +1,11 @@
+.form-sectiom{
+    display: none;
+}
+
+.form-section{
+    display: none;
+}
+
+.connect-section, .vibe-section{
+    margin-bottom: 30px;
+}
